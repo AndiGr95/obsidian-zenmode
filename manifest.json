@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-zenmode",
+	"name": "ZenMode",
+	"version": "1.2.5",
+	"minAppVersion": "0.15.0",
+	"description": "UI elements are hidden as soon as you start writing.",
+	"author": "Andi Iton",
+	"authorUrl": "https://forum.obsidian.md/u/anditon",
+	"fundingUrl": "https://www.icrc.org/en/donate",
+	"isDesktopOnly": false
+}

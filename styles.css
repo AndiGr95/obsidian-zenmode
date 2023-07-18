@@ -1,0 +1,360 @@
+/*HIDE ALL*/
+.hider-all .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content 
+{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hider-all .mod-root .workspace-tabs .workspace-tab-header-container 
+
+{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hider-all .sidebar-toggle-button.mod-right,
+.hider-all .sidebar-toggle-button.mod-left 
+{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.hider-all .mod-macos.is-hidden-frameless:not(.is-popout-window) .workspace .workspace-tabs.mod-top-right-space .workspace-tab-header-container 
+{
+    /* padding-right: 4px; */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.hider-all.mod-macos.is-hidden-frameless:not(.is-fullscreen):not(.is-popout-window) .workspace-tabs.mod-top-left-space .workspace-tab-header-container 
+{
+    /* padding-left: calc(var(--frame-left-space) + var(--ribbon-width)); */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.hider-all .workspace-ribbon.mod-left {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .workspace-ribbon.mod-right {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .workspace-split.mod-right-split {
+  margin-right:0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .workspace-split.mod-left-split {
+  margin-left:0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .frontmatter-container {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all ::-webkit-scrollbar {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .status-bar {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .tooltip {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .suggestion-container.mod-search-suggestion 
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .tree-item-flair:not(.tag-pane-tag-count) 
+{ 
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .prompt-instructions {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .workspace-leaf-content[data-type=file-explorer] .nav-header 
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .workspace-split.mod-left-split
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .status-bar 
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all .view-header 
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div > div.workspace-tab-container > div > div > div.view-header
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after 
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all body.is-frameless.is-hidden-frameless .titlebar
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+
+.hider-all div.titlebar-button.mod-minimize > svg > rect
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all div.titlebar-button.mod-maximize > svg > rect
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.hider-all div.titlebar-button.mod-close > svg > rect
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.hider-all .titlebar-button.mod-minimize
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: none;
+}
+
+.hider-all div.titlebar-button.mod-maximize
+{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  visibility:hidden;
+  display: none;
+}
+
+.hider-all div.titlebar-button.mod-close{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  visibility:hidden;
+  display: none;
+}
+
+.hider-all div.workspace-split.mod-horizontal.mod-left-split
+{
+  width: 0% !important;
+  transition:width 0.5s;
+}
+
+.hider-all div.workspace-split.mod-horizontal.mod-left-split.is-sidedock-collapsed
+{
+  width: 0% !important;
+  transition:width 0.5s;
+  display:none;
+}
+
+
+/*UNHIDE ALL*/
+.unhide-all .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .mod-root .workspace-tabs .workspace-tab-header-container {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .sidebar-toggle-button.mod-right,
+.unhide-all .sidebar-toggle-button.mod-left {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+.unhide-all .mod-macos.is-hidden-frameless:not(.is-popout-window) .workspace .workspace-tabs.mod-top-right-space .workspace-tab-header-container {
+  padding-right: 4px;
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all.mod-macos.is-hidden-frameless:not(.is-fullscreen):not(.is-popout-window) .workspace-tabs.mod-top-left-space .workspace-tab-header-container 
+{
+  padding-left: calc(var(--frame-left-space) + var(--ribbon-width));
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .workspace-ribbon.mod-left {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+.unhide-all .workspace-ribbon.mod-right {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+.unhide-all .workspace-split.mod-right-split {
+  margin-right:0;
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+.unhide-all .workspace-split.mod-left-split {
+  margin-left:0;
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .frontmatter-container {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all ::-webkit-scrollbar {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .status-bar {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+/* Hide tooltips */
+.unhide-all .tooltip {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .suggestion-container.mod-search-suggestion {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .tree-item-flair:not(.tag-pane-tag-count) { 
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .prompt-instructions {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .workspace-leaf-content[data-type=file-explorer] .nav-header 
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .workspace-split.mod-left-split
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .status-bar 
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .view-header 
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div > div.workspace-tab-container > div > div > div.view-header
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after {
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all body.is-frameless.is-hidden-frameless .titlebar
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all div.titlebar-button.mod-minimize > svg > rect
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all div.titlebar-button.mod-maximize > svg > rect
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all div.titlebar-button.mod-close > svg > rect
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+}
+
+.unhide-all .titlebar-button.mod-minimize
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+  display: flex;
+}
+
+.unhide-all div.titlebar-button.mod-maximize
+{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+  visibility:visible;
+  display: flex;
+}
+
+.unhide-all div.titlebar-button.mod-close{
+  opacity: 100;
+  transition: opacity 0.5s ease;
+  visibility:visible;
+  display: flex;
+}
+
+.unhide-all div.workspace-split.mod-horizontal.mod-left-split
+{
+  width: 200px !important; /*this*/
+  transition:width 0.5s;
+}
+
+.unhide-all div.workspace-split.mod-horizontal.mod-left-split.is-sidedock-collapsed
+{
+  width: 200px !important; /*this*/
+  transition:width 0.5s;
+  display:flex;
+}
